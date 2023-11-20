@@ -1,0 +1,8 @@
+{% include 'header_and_footer/header.html' %}
+<h1>Детальная информация о блюде</h1>
+<h2>{{dish.title}}</h2>
+<img src="{{dish.image.url}}" alt="">
+<p><strong>{{dish.price}} сом</strong></p>
+<p>{{dish.description}}</p>
+<time>{{dish.created_at}}</time>
+{% include 'header_and_footer/footer.html' %}

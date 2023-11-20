@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import DishListModel, Orders, Slider
+
+admin.site.register(DishListModel)
+admin.site.register(Orders)
+admin.site.register(Slider)
